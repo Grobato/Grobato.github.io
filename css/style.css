@@ -1,0 +1,18 @@
+/* CSS for Grobato's Github page */
+
+body
+{
+  background: #000;
+}
+
+#content
+{
+  width: 50%;
+  position: absolute;
+  margin: auto;
+}
+
+form
+{
+  margin: auto;
+}
