@@ -5,7 +5,7 @@ var select = document.getElementById("background");
 select.addEventListener("change", function(event) {
 
   if (event.target.value === "a") {
-    document.body.style.backgroundImage = 'url("https://drive.google.com/open?id=0Bw__udsOLruRSDY2X09sWVJvMmc")';
+    document.body.style.backgroundImage = 'url("http://zupimages.net/up/17/36/8onf.jpg")';
     document.body.style.backgroundPosition = "bottom";
   } else if (event.target.value === "d") {
     document.body.style.backgroundImage = 'url("https://drive.google.com/open?id=0Bw__udsOLruRR1pFM3VJZmRLZ2M")';
