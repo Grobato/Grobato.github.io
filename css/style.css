@@ -9,7 +9,8 @@ body
 {
   width: 50%;
   position: absolute;
-  margin: auto;
+  left: 20px;
+  bottom: 20px;
 }
 
 form
