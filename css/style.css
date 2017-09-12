@@ -86,6 +86,7 @@ iframe
   width: 20px;
   border-radius: 50%;
   animation: neptmove 15s linear infinite;
+  animation-delay: 5s;
 }
 
 @keyframes neptmove
