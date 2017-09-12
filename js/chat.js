@@ -1,7 +1,7 @@
 // creating table chat
 var tableMessages = [{
-  name: "",
-  message: ""
+  name: "Grobato",
+  message: "Yo, you can chat here ! Just type and launch."
 }];
 
 // variables
@@ -20,7 +20,8 @@ tableMessages.forEach(function(msg) {
 
   var spanElt = document.createElement("span");
   spanElt.setAttribute("class", "boldname");
-  spanElt.fontWeight = "bold";
+  spanElt.style.fontWeight = "bold";
+  spanElt.style.color = "#FF6600";
   spanElt.textContent = msg.name + ": ";
 
   var messageElt = document.createTextNode(msg.message);
