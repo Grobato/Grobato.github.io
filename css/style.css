@@ -2,7 +2,7 @@
 
 body
 {
-  background: #000;
+  background-image: url("https://img00.deviantart.net/7da3/i/2011/017/6/f/starfield_stock_by_freelancah-d2k5mcu.jpg");
 }
 
 #content
@@ -11,7 +11,7 @@ body
   height: 300px;
   position: absolute;
   left: 30%;
-  top: 200px;
+  top: 250px;
 }
 
 iframe
@@ -82,7 +82,7 @@ iframe
 /* NEPTUNE ANIMATION */
 #neptune
 {
-  width: 70px;
+  width: 20px;
   border-radius: 50%;
   animation: neptmove 15s linear infinite;
 }
