@@ -13,12 +13,14 @@
 
 <div id="content">
 
+  <img src="https://s1.qwant.com/thumbr/0x0/b/2/6afbdd133f6d2a4e111d346146b3a6/b_1_q_0_p_0.jpg?u=http%3A%2F%2F1.bp.blogspot.com%2F_gHQMN2SucRI%2FS_Lc9aZfBwI%2FAAAAAAAAAGY%2FxPzi_hP1N9g%2Fs1600%2FNeptune.jpg&q=0&b=1&p=0&a=1" id="neptune" />
+
 
 </div>
 
 <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/319774106&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
-<form id="formulaire">
+<form id="formback">
 
   <select id="background">
     <option id="defaut" selected>Select a background</option>
@@ -30,7 +32,29 @@
 
 </form>
 
+
+<!-- Chat time -->
+<div id="chat">
+
+  <div id="displaychat"></div>
+
+  <div id="launchchat">
+
+    <form id="formchat">
+
+      <input type="text" maxlength="15" id="chatname" placeholder="Name"></input>
+      <input type="text" maxlenght="100" id="chatmessage" placeholder="Message"></input>
+      <input type="submit" id="chatsubmit" value="Doh!"></input>
+
+    </form>
+
+  </div>
+
+</div>
+
+
 <script src="js/background.js"></script>
+<script src="js/chat.js"></script>
 
 </body>
 </html>

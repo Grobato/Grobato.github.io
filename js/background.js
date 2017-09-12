@@ -26,5 +26,5 @@ select.addEventListener("change", function(event) {
 
 window.addEventListener("load", function(event) {
 
-  document.getElementById("formulaire").reset();
+  document.getElementById("formback").reset();
 });
